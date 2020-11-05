@@ -15,11 +15,9 @@ class Myapp extends StatefulWidget {
 class _MyappState extends State<Myapp>{
   Widget build(BuildContext context) {
     return SplashScreen(
-      children: <Widget>[
-        Image.asset('assets/blood.jpg',height: 100.0,),
-      ]
-      seconds: 10,
+      seconds: 5,
       backgroundColor: Colors.red,
+      image: Image.asset('assets/blood.gif'),
       loaderColor: Colors.yellow,
       photoSize: 150.0,
       navigateAfterSeconds: mainscreen(),
