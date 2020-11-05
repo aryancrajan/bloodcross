@@ -24,7 +24,24 @@ class _MyappState extends State<Myapp>{
     );
   }
 }
-
+class SecondRoute extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Register Here"),
+      ),
+      body: Center(
+        child: ElevatedButton(
+          onPressed: () {
+            Navigator.pop(context);// Navigate back to first route when tapped.
+          },
+          child: Text('Go back!'),
+        ),
+      ),
+    );
+  }
+}
 class mainscreen extends StatefulWidget{
   @override
   _State createState() => _State();
@@ -113,7 +130,10 @@ class _State extends State<mainscreen> {
                             style: TextStyle(fontSize: 20),
                           ),
                           onPressed: () {
-                            //signup screen
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context) => SecondRoute()),
+                            );//signup screen
                           },
                         )
                       ],
