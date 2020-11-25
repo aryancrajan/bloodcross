@@ -59,17 +59,19 @@ class _LoginPageState extends State<LoginPage> implements LoginPageContract {
       child: new Text("Register"),
       color: Colors.redAccent,
     );
-    var loginForm = new Column(
+    var loginForm =
+    SingleChildScrollView(
+      child: new Column(
       crossAxisAlignment: CrossAxisAlignment.center,
       children: <Widget>[
         new Text(
             "'Share a little,Care a little!'",
             textScaleFactor: 2.0,
             style: TextStyle(
-                color: Colors.black,
+                color: Colors.blueAccent,
                 //fontWeight: FontWeight.bold,
                 fontFamily: 'Montserrat',
-                fontSize: 10
+                fontSize: 12
             )),
         new Form(
           key: formKey,
@@ -98,6 +100,7 @@ class _LoginPageState extends State<LoginPage> implements LoginPageContract {
 
         registerBtn
       ],
+    ),
     );
 
     return new Scaffold(
