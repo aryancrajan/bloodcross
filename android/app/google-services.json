@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "928590133417",
+    "firebase_url": "https://bloodcross-5d005.firebaseio.com",
+    "project_id": "bloodcross-5d005",
+    "storage_bucket": "bloodcross-5d005.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928590133417:android:e8a167252f3eb04b47d1b8",
+        "android_client_info": {
+          "package_name": "com.example.blood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "928590133417-ok9q1n137j09amhedi2r5g6q330vk1ge.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUQ6Cz3dI74xc-vY8s3bL7vKRUWRrH7EU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "928590133417-ok9q1n137j09amhedi2r5g6q330vk1ge.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
